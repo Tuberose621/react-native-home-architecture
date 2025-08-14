@@ -9,6 +9,11 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+# 忽略 node_modules
+HomeArchitectureDemo/node_modules/
+HomeArchitectureDemo/ios/Pods/
+HomeArchitectureDemo/android/.gradle/
+
 # Runtime data
 pids
 *.pid
